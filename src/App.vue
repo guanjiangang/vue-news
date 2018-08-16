@@ -1,6 +1,7 @@
 <template>
-  <div id="app">
+  <div id="app">  	
     <NavView v-show='headerShow'></NavView>
+    <loading></loading>
     <router-view></router-view>
     <FooterView></FooterView>
   </div>

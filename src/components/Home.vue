@@ -17,5 +17,5 @@
 </script>
 
 <style scoped>
-	#content{width: 100%;height: 480px;background: red;text-align: center;line-height: 480px;}
+	#content{width: 100%;height: 580px;background: red;text-align: center;line-height: 480px;}
 </style>

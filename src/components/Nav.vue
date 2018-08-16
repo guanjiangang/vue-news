@@ -15,7 +15,8 @@
 </script>
 	
 <style scoped>
-	#nav{width: 100%;height: 40px;background: #9E9A95;text-align: center;line-height: 40px;}	
+	#nav{margin-bottom: 40px;}
+	#nav ul{width: 100%;height: 40px;background: #9E9A95;text-align: center;line-height: 40px;position: fixed;left: 0;top: 0;}	
 	#nav ul li{display: inline-block;margin-right: 20px;}
 	#nav ul li:first-child{margin-left: 20px;}
 	.active{color: red;font-weight: bold;}

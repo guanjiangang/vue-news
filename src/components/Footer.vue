@@ -1,13 +1,13 @@
 <template>
 	<div id="footer">
 		<ul>
-			<router-link tag='li' to='/home' class='my'>
+			<router-link tag='li' to='/home' active-class='my'>
 				首页
 			</router-link>
-			<router-link tag='li' to='/Follow' class='my'>
+			<router-link tag='li' to='/Follow' active-class='my'>
 				发布
 			</router-link>
-			<router-link tag='li' to='/user-info' class='my'>
+			<router-link tag='li' to='/user-info' active-class='my'>
 				我的
 			</router-link>
 		</ul>

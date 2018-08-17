@@ -2,6 +2,7 @@ import Home from './components/Home.vue'
 import Follow from './components/Follow.vue'
 import Column from './components/Column.vue'
 import Userinfo from './components/Userinfo.vue'
+import article from './components/Article.vue'
 
 export default[
 	{
@@ -23,5 +24,9 @@ export default[
 	{
 		path:'/user-info',
 		component:Userinfo
+	},
+	{
+		path:'/article/:id',
+		component:article
 	}
 ]
